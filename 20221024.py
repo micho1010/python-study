@@ -27,3 +27,7 @@ value4f = float(value2)
 value4 = int(value4f)
 res = value3 * value4
 print("res的值:",res)
+
+value6 = '3.13'
+value7 = '454.67'
+print(int(float(value6) * float(value7)))
