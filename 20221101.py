@@ -17,7 +17,7 @@ else:
 
 num1 = float(input("请输入你想要的数字："))
 num2 = float(input("乘以几："))
-print("这是您想要的结果：",num1 * num2)
+print("这是您想要的结果：", num1 * num2)
 
 print("我真可爱！", "放假真美啊！", "可怜的大可爱不想上班，让我们一起默哀一秒钟！")
 

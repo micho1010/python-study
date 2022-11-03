@@ -18,3 +18,19 @@ if  age >= 20 and gender == "f" and color != "黑" and color != "白":
 else:
     print(name, "随便喜欢",color, "颜色")
 
+name1 = input("姓名：")
+age1 = int(input("年纪："))
+gender1 =input("性别(写f或者m)")
+color1 = input("你最喜欢的颜色(请输入红、黄、蓝等单个字):") 
+
+if age < 20:
+    print(name, "喜欢", color, "颜色")
+else:
+    if gender1 == 'm' and color1 == '粉':
+        print(name1, "猛男喜欢的颜色为", color1)
+    if gender1 == "f" and color1 != "黑" and color1 != "白":
+        print(name1, "仙女喜欢", color1)
+    else:
+        print(name1, "随便喜欢", color1)
+print("done")
+
