@@ -5,6 +5,12 @@ for i in range(count, 0, -1):
     time.sleep(1) 
 print("BLAST OFF!")
 
+for i in range(5): 
+for j in range(3):
+print('* ', end='') 
+print()
+
+
 numLines = int(input('How many lines of stars do you want? ')) 
 numStars = int(input('How many stars per line? '))
 for line in range(0, numLines):
